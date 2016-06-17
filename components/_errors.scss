@@ -1,0 +1,13 @@
+/* error */
+.error-box,.error {
+    padding: 10px;
+    border: 1px solid $dark-red;
+    @include border-radius(0);
+    margin: 5px 0;
+    background: $light-pink;
+    color: $dark-red;
+    font-size: $base-font-size;
+    &:empty {
+        display: none;
+    }
+}
